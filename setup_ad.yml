@@ -1,0 +1,7 @@
+---
+- name: install and configure active directory
+  hosts: windows
+  gather_facts: true
+
+  roles:
+    - win_ad_install
